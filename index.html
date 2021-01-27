@@ -1,8 +1,8 @@
-<!Doctype html>
+<!DOCTYPE html>
 
 <html>
 
-<head> <title> The Bycicles Shop</title></head>
+<head><title> The Bycicles Shop</title></head>
 
 <body> 
 
@@ -46,6 +46,7 @@
         <figcaption>Jiant</figcaption>        
         <figcaption>92 JD</figcaption>     
     </figure>
+    <button id="Jiant" onclick="addtoBasket(event)">Add to Basket</button>
 
     
     <figure>
@@ -53,22 +54,28 @@
         <figcaption>Fouji</figcaption>  
         <figcaption>66 JD</figcaption>           
     </figure>
+    <button id="Fouji" onclick="addtoBasket(event)">Add to Basket</button>
+
 
     <figure>
         <img src="https://www.sefiles.net/images/library/small/electra-townie-go-5i-step-thru-383226-1.png" >
         <figcaption>electra</figcaption>   
         <figcaption>78 JD</figcaption> 
     </figure>
+    <button id="electra" onclick="addtoBasket(event)">Add to Basket</button>
+
 
     <figure>
         <img src="https://www.sefiles.net/images/library/small/giant-reign-e-2-pro-20mph-341089-1-11-1.jpg">
         <figcaption>Liv</figcaption>   
         <figcaption>49 JD</figcaption> 
     </figure>
+    <button id="Liv" onclick="addtoBasket(event)">Add to Basket</button>
 
+    <div style="text-align: center;"><button style="font-size: 30px;" id="buyNow" onclick="buyNow()">checkout</button></div>
 </section>
 
-
+<script src="buy.js"></script>
 
 
 </main>
